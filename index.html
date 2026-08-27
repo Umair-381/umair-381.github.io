@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umair Rasool, PhD — Hydrologist</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0a0a0a;
+            color: #e5e5e5;
+            line-height: 1.6;
+        }
+        .container { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+        header { text-align: center; margin-bottom: 50px; }
+        h1 { font-size: 2.5rem; font-weight: 700; color: #fff; margin-bottom: 8px; }
+        .subtitle { color: #888; font-size: 1.1rem; margin-bottom: 20px; }
+        .badge {
+            display: inline-block; background: #1a1a1a; border: 1px solid #333;
+            padding: 6px 16px; border-radius: 20px; font-size: 0.85rem; color: #aaa;
+            margin: 3px;
+        }
+        .stats {
+            display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;
+            margin: 40px 0;
+        }
+        .stat-box {
+            background: #111; border: 1px solid #222; border-radius: 12px;
+            padding: 24px; text-align: center;
+        }
+        .stat-num { font-size: 2rem; font-weight: 700; color: #fff; }
+        .stat-label { font-size: 0.85rem; color: #666; margin-top: 4px; }
+        .section { margin: 50px 0; }
+        .section h2 {
+            font-size: 1.3rem; color: #fff; margin-bottom: 20px;
+            padding-bottom: 10px; border-bottom: 1px solid #222;
+        }
+        .pub {
+            background: #111; border: 1px solid #1a1a1a; border-radius: 10px;
+            padding: 16px 20px; margin-bottom: 12px;
+        }
+        .pub-title { color: #fff; font-weight: 600; font-size: 0.95rem; }
+        .pub-meta { color: #666; font-size: 0.85rem; margin-top: 4px; }
+        .pub-cites { color: #4ade80; font-size: 0.85rem; margin-top: 4px; }
+        .btn {
+            display: inline-block; background: #fff; color: #000;
+            padding: 14px 32px; border-radius: 8px; text-decoration: none;
+            font-weight: 600; font-size: 1rem; transition: all 0.2s;
+        }
+        .btn:hover { background: #ddd; transform: translateY(-1px); }
+        .agent-card {
+            background: linear-gradient(135deg, #111 0%, #1a1a1a 100%);
+            border: 1px solid #333; border-radius: 16px; padding: 32px;
+            text-align: center; margin: 40px 0;
+        }
+        .agent-card h3 { color: #fff; font-size: 1.4rem; margin-bottom: 10px; }
+        .agent-card p { color: #888; margin-bottom: 20px; }
+        footer { text-align: center; color: #444; font-size: 0.8rem; margin-top: 60px; }
+        a { color: #888; text-decoration: none; }
+        a:hover { color: #fff; }
+        @media (max-width: 600px) {
+            .stats { grid-template-columns: 1fr; }
+            h1 { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Umair Rasool, PhD</h1>
+            <div class="subtitle">Hydrologist · Flood Risk · Machine Learning · CMIP6</div>
+            <div>
+                <span class="badge">Yellow River Research Institute</span>
+                <span class="badge">Zhengzhou, China</span>
+                <span class="badge">Pakistani</span>
+            </div>
+            <div style="margin-top: 16px;">
+                <span class="badge">Google Scholar</span>
+                <span class="badge">ORCID</span>
+                <span class="badge">ResearchGate</span>
+            </div>
+        </header>
+
+        <div class="stats">
+            <div class="stat-box">
+                <div class="stat-num">13</div>
+                <div class="stat-label">Publications</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-num">369</div>
+                <div class="stat-label">Citations</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-num">8</div>
+                <div class="stat-label">h-index</div>
+            </div>
+        </div>
+
+        <div class="agent-card">
+            <h3>🤖 Career Agent</h3>
+            <p>My personal AI agent scans jobs, scores matches, drafts cover letters, and tracks applications.</p>
+            <a href="https://YOUR-AGENT-URL.streamlit.app" class="btn" target="_blank">Launch Agent</a>
+            <p style="margin-top: 12px; font-size: 0.8rem; color: #555;">Powered by Python + Streamlit</p>
+        </div>
+
+        <div class="section">
+            <h2>Research Focus</h2>
+            <p style="color: #aaa; line-height: 1.8;">
+                Hydrologist working on flood risk in large river basins and rapidly urbanising regions, 
+                combining satellite remote sensing, ensemble machine learning and extreme value statistics. 
+                Current work spans the Lancang–Mekong system, quantifying flood-driven losses to rice 
+                production under CMIP6 scenarios and testing the stationarity assumptions underlying 
+                operational flood-frequency thresholds.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Selected Publications</h2>
+            <div class="pub">
+                <div class="pub-title">Quantifying pluvial flood simulation in ungauged urban area</div>
+                <div class="pub-meta">Journal of Hydrology, 2025</div>
+                <div class="pub-cites">12 citations</div>
+            </div>
+            <div class="pub">
+                <div class="pub-title">Influence of lunar phases and meteorological factors on rainfall in Karachi City</div>
+                <div class="pub-meta">Journal of Hydrology, 2024</div>
+                <div class="pub-cites">8 citations</div>
+            </div>
+            <div class="pub">
+                <div class="pub-title">Rainfall-driven machine learning models for accurate flood inundation mapping</div>
+                <div class="pub-meta">Urban Climate, 2023</div>
+                <div class="pub-cites">28 citations</div>
+            </div>
+            <div class="pub">
+                <div class="pub-title">Mapping of groundwater productivity potential with machine learning algorithms</div>
+                <div class="pub-meta">Chemosphere, 2022</div>
+                <div class="pub-cites">55 citations</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Current Appointment</h2>
+            <p style="color: #aaa;">
+                <strong style="color: #fff;">Postdoctoral Researcher</strong> · Feb 2026 – Apr 2028<br>
+                Yellow River Research Institute<br>
+                North China University of Water Resources and Electric Power<br>
+                Zhengzhou, Henan 450046, China
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Technical Skills</h2>
+            <div>
+                <span class="badge">Python</span>
+                <span class="badge">R</span>
+                <span class="badge">Google Earth Engine</span>
+                <span class="badge">ArcGIS / QGIS</span>
+                <span class="badge">CMIP6</span>
+                <span class="badge">GloFAS</span>
+                <span class="badge">ERA5</span>
+                <span class="badge">Machine Learning</span>
+                <span class="badge">Extreme Value Analysis</span>
+                <span class="badge">Remote Sensing</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Contact</h2>
+            <p style="color: #aaa;">
+                📧 umairrasool31@hotmail.com<br>
+                🎓 <a href="https://scholar.google.com/citations?user=1z2eXB8AAAAJ">Google Scholar</a><br>
+                💼 <a href="#">LinkedIn</a>
+            </p>
+        </div>
+
+        <footer>
+            <p>© 2026 Umair Rasool · Built with the Career Agent</p>
+        </footer>
+    </div>
+</body>
+</html>
